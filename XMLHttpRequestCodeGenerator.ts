@@ -1,5 +1,5 @@
 /**
- * JavaScritp XMLHttpRequest Paw Code Generator Extension
+ * JavaScript XMLHttpRequest Paw Code Generator Extension
  *
  * http://github.com/mlavergn/paw-xhr-codegen
  * Copyright (c) Marc Lavergne. All rights reserved.
