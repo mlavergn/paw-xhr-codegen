@@ -11,7 +11,13 @@ jobs:
     runs-on: macOS-latest
 
     steps:
-    - uses: actions/setup-node@v1.1.0
+    - uses: actions/checkout@v1
+    - name: Build the project
+      uses: actions/setup-node@v1.1.0
+      with:
+        node-version: 8
+
+    - name: npm install and build
       run: |
         make deps
         make build
