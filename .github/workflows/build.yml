@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build the project
+    runs-on: macOS-latest
+
+    steps:
+    - uses: actions/setup-node@v1.1.0
+      run: |
+        make deps
+        make build
