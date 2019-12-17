@@ -36,3 +36,6 @@ clean:
 release:
 	hub release create -m "${VERSION} - PAW XHRCodeGenerator" -a XMLHttpRequestCodeGenerator.js -t master "${VERSION}"
 	open "https://github.com/mlavergn/paw-xhr-codegen/releases"
+
+github:
+	open "https://github.com/mlavergn/paw-xhr-codegen/releases"
