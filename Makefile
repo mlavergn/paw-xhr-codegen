@@ -11,7 +11,7 @@ DOMAIN = com.marclavergne
 
 EXTDIR = $(HOME)/Library/Containers/com.luckymarmot.Paw/Data/Library/Application Support/com.luckymarmot.Paw/Extensions/${DOMAIN}.PawExtensions.${FILE}
 
-VERSION = 1.0.0
+VERSION = 1.0.1
 
 ver:
 	sed -i '' 's/\(PAW XHRCodeGenerator \)\([0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}\)/\1${VERSION}/' XMLHttpRequestCodeGenerator.ts

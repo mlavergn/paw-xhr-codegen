@@ -47,7 +47,7 @@ class XHRCodeGenerator implements PawCodeGenerator {
   static fileExtension = 'js';
   static languageHighlighter = 'js';
 
-  title = '// PAW XHRCodeGenerator 1.0.0\n';
+  title = '// PAW XHRCodeGenerator 1.0.1\n';
 
   /**
    * Calls registerCodeGenerator function is required
