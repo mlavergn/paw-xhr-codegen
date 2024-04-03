@@ -2,11 +2,11 @@
 
 # XMLHttpRequest Code Generator (Paw Extension)
 
-A [Paw Extension](http://luckymarmot.com/paw/extensions/) that generates [XMLHttpRequest](http://en.wikipedia.org/wiki/XMLHttpRequest) JavaScript code.
+A [Paw Extension](http://paw.cloud/extensions/) that generates [XMLHttpRequest](http://en.wikipedia.org/wiki/XMLHttpRequest) JavaScript code.
 
 ## Installation
 
-Easily install this Paw Extension: [Install XMLHttpRequest Code Generator](http://luckymarmot.com/paw/extensions/XMLHttpRequestCodeGenerator)
+Easily install this Paw Extension: [Install XMLHttpRequest Code Generator](paw://extensions/com.marclavergne.PawExtensions.XMLHttpRequestCodeGenerator?install)
 
 ## Development
 
